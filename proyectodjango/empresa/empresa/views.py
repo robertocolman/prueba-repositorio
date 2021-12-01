@@ -42,3 +42,6 @@ def pagina3(request):
 	ahora = datetime.datetime.now()
 
 	return render(request, "pagina3.html", {"horario": ahora})
+
+def pagina4(request):
+	return render(request, "pagina4.html")
