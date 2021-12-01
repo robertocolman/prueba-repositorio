@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} mi pagina {% endblock %}
+
+{% block content %}
+
+<p style="text-align: center;">Estamos a dia: {{horario.day}} / {{horario.month}} / {{horario.year}}</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zcip8YyXwWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<address>
+        <a href="http://localhost:8000/pagina3/">Escuchate otro tema</a>  
+    </address>
+
+    <address> 
+        <a href="http://localhost:8000/paginaPrincipal/">Volver al sitio principal</a>    
+    </address> 
+
+{% endblock %}

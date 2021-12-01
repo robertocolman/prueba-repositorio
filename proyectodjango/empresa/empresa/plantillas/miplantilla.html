@@ -1,0 +1,59 @@
+<!Doctype html>
+{% extends "base.html" %}
+
+{% block title %} mi pagina {% endblock %}
+
+{% block content %}
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Intento de django para el informatorio</title>
+        <meta name="Description" content="Esta es mi primer pagina web alangau" />
+        <meta name="author" content="Fazt" />
+        <meta name="Keywords" content="Mi primer titulo, mi primera pagina, pagina web" />
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center;">Intento de plantilla para el informatorio</h1>
+        </header>
+
+       
+         
+        <section>
+            <article>
+                <hgroup>
+                    <h1 style="text-align: center;">Dia actual: {{horario.day}} / {{horario.month}} / {{horario.year}}</h1>
+                </hgroup>
+                
+                <time datetime="29-09-2021">Publicado 30/11/2021</time>
+                <p>Foto de alguien que nunca se drogó</p>
+                <img src="https://scontent.fres2-1.fna.fbcdn.net/v/t1.6435-9/82891155_10156559540146555_8588682952630599680_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHw11Cu6jydMmlwYL9bVti2rP-SJlziJdqs_5ImXOIl2p5OV_nzdCAR5ARY6pTLE1zm194SrKaUClvQpy4GIbgZ&_nc_ohc=TEKbpgVONpMAX_zU4jh&_nc_ht=scontent.fres2-1.fna&oh=2c1bf81535982a0905f993f6a1d79277&oe=61CCC396">
+                <footer>
+                    <p>Comentario (0)</p>
+                </footer>
+                     
+            </article>
+
+           
+        </section>
+
+      
+        
+
+    <p>
+       
+    </p>
+    </body>
+
+    <address>
+        <a href="http://localhost:8000/pagina2/">Vamo a escuchar kopa2</a>      
+    </address>  
+
+    <p> </p>
+
+        <footer >
+            Derechos reservados 2021
+        </footer>
+</html>
+{% endblock %}

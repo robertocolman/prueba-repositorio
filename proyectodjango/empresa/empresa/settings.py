@@ -54,7 +54,7 @@ ROOT_URLCONF = 'empresa.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/rober/Desktop/pyton/git/prueba-repositorio/proyectodjango/empresa/empresa/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

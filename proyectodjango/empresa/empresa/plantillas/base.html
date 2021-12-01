@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>
+		
+		{% block title %} {% endblock %}
+	</title>
+</head>
+<body>
+
+	<h1 style="background-color: darkolivegreen; color: white; text-align: center; ">informatorio</h1>
+
+	{% include "superior/barra.html" %}
+
+	<h3 style="text-align: center;">intento de informatorio</h3>
+
+	{% block content %} {% endblock %}
+
+	<p style="background-color: darkolivegreen; color: white; text-align: right;">Gracias por su visita</p>
+
+</body>
+</html>
